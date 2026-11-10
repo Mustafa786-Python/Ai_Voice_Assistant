@@ -134,12 +134,6 @@ The project has not been verified on a live connection: [TODO: state what you te
 - Save temperatures to a file or database.
 - Control a real device, such as an ESP32.
 
-## Credits
-
-This project follows a Tech With Tim tutorial and was ported from the old LiveKit 0.x API to LiveKit Agents 1.x and Gemini.
-
-[TODO: add the video URL]
-
 ## License
 
 MIT — see [`LICENSE`](LICENSE).
