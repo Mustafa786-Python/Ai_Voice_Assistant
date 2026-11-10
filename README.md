@@ -17,7 +17,7 @@ The assistant supports these rooms: living room, bedroom, kitchen, bathroom, and
 
 1. You speak to the assistant.
 2. Your audio travels through a LiveKit room.
-3. Gemini Live handles speech input and speech output.
+3. Gemini Live handles speech input and speech output with the `Puck` voice. The project has no separate speech-to-text or text-to-speech components.
 4. Gemini Live asks the assistant to call `get_temperature` or `set_temperature`.
 5. The tool reads or changes the in-memory temperature.
 6. The assistant speaks the result.
@@ -73,7 +73,7 @@ This repository does not contain a `requirements.txt` file. Install the packages
 pip install "livekit-agents[google]~=1.8" python-dotenv
 ```
 
-TODO: generate `requirements.txt` with `pip freeze`.
+[TODO: generate requirements.txt with pip freeze]
 
 ## Configure
 
@@ -86,7 +86,7 @@ LIVEKIT_API_SECRET=your-livekit-api-secret
 GOOGLE_API_KEY=your-google-api-key
 ```
 
-Never commit `.env` or its credentials. This repository does not currently contain a `.gitignore` file, so add `.env` to `.gitignore` before committing.
+Never commit `.env` or its credentials. The repository's `.gitignore` lists `.env`.
 
 The variable names above come from the LiveKit and Google documentation, not from the Python code.
 
